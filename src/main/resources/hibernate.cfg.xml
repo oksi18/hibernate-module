@@ -9,7 +9,7 @@
         <property name="connection.password">sp2022db</property>
 
         <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
-        <property name="hbm2ddl.auto">create</property> <!-- create | create-drop | update -->
+        <property name="hbm2ddl.auto">update</property> <!-- create | create-drop | update -->
 
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
